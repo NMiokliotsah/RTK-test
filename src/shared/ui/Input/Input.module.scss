@@ -1,0 +1,16 @@
+.todoInput {
+  width: 85%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 2px solid gray;
+}
+
+.editMode {
+  padding: 4px;
+  border: 2px solid #000;
+  border-radius: 4px;
+}
+
+input:focus {
+  outline: none;
+}

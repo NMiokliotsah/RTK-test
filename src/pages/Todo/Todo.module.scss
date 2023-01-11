@@ -1,0 +1,12 @@
+.wrapper {
+  background-color: var(--page-background);
+  min-height: calc(100vh - 75px);
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 620px;
+  padding: 0 20px 25px;
+  width: 100%;
+}

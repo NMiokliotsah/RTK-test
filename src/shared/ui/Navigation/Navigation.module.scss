@@ -1,0 +1,19 @@
+.wrapper a {
+  padding: 0 10px;
+  font-size: 20px;
+  color: var(--color-white);
+}
+
+@media (max-width: 700px) {
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+
+    .menuItem {
+      font-size: 40px;
+      padding-top: 20px;
+    }
+  }
+}

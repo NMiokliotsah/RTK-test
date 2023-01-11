@@ -1,0 +1,24 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-white);
+  border-radius: 6px;
+  min-height: 60px;
+  margin-top: 10px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 0 10px;
+  justify-content: space-between;
+
+  .todoButtons {
+    min-width: 140px;
+  }
+
+  .todoTitle {
+    padding-right: 8px;
+  }
+}
